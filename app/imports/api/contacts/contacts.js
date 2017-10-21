@@ -32,8 +32,8 @@ export const ContactsSchema = new SimpleSchema({
 
   },
 
-  phone: {
-    label: 'phone',
+  telephone: {
+    label: 'telephone',
     type: String,
     optional: false,
     max: 200,
